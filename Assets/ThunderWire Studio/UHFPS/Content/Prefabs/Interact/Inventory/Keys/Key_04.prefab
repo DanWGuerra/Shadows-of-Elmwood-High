@@ -121,8 +121,8 @@ MonoBehaviour:
   <UniqueID>k__BackingField:
     Id: a433f4650fdc45f68d67148c925cbda9
   InteractableType: 1
-  MessageType: 2
-  ExamineType: 1
+  MessageType: 1
+  ExamineType: 2
   ExamineRotate: 3
   DisableType: 1
   PickupItem:
@@ -133,26 +133,28 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   ExamineTitle:
-    GlocText: 
+    GlocText: It is and old key, but it looks it is in good condition
     NormalText: 
   PaperText:
     GlocText: 
     NormalText: 
   HintMessage:
-    GlocText: 
+    GlocText: A key? What is this doing here? Where would I use a key in a place
+      like this?
     NormalText: 
   MessageTime: 3
   Quantity: 1
   SlotsToExpand: 1
   ExpandRows: 0
-  UseInventoryTitle: 1
-  ExamineInventoryTitle: 1
+  UseInventoryTitle: 0
+  ExamineInventoryTitle: 0
   ShowExamineTitle: 1
   ShowFloatingIcon: 0
   TakeFromExamine: 0
   AllowCursorExamine: 0
   IsPaper: 0
   AutoShortcut: 0
+  AutoEquip: 0
   UseExamineZooming: 1
   ExamineZoomLimits:
     min: 0.25
@@ -172,8 +174,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   PickupSound:
-    audioClip: {fileID: 0}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: a93fa2c5579e9c440b178f3505e51482, type: 3}
+    volume: 0.5
   ExamineSound:
     audioClip: {fileID: 0}
     volume: 0

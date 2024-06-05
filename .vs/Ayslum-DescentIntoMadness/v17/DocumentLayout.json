@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F6EC4F1-7B60-0376-FCF8-8DEFFE44F2B5}|Assembly-CSharp.csproj|c:\\users\\justl\\onedrive\\escritorio\\unity\\ayslum-descentintomadness\\assets\\thunderwire studio\\uhfps\\content\\scripts\\runtime\\core\\game\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6EC4F1-7B60-0376-FCF8-8DEFFE44F2B5}|Assembly-CSharp.csproj|solutionrelative:assets\\thunderwire studio\\uhfps\\content\\scripts\\runtime\\core\\game\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F6EC4F1-7B60-0376-FCF8-8DEFFE44F2B5}|Assembly-CSharp.csproj|c:\\users\\justl\\onedrive\\escritorio\\unity\\ayslum-descentintomadness\\assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F6EC4F1-7B60-0376-FCF8-8DEFFE44F2B5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6EC4F1-7B60-0376-FCF8-8DEFFE44F2B5}|Assembly-CSharp.csproj|c:\\users\\justl\\onedrive\\escritorio\\unity\\ayslum-descentintomadness\\assets\\thunderwire studio\\uhfps\\content\\scripts\\runtime\\core\\inventory\\behaviour\\inventory.methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6EC4F1-7B60-0376-FCF8-8DEFFE44F2B5}|Assembly-CSharp.csproj|solutionrelative:assets\\thunderwire studio\\uhfps\\content\\scripts\\runtime\\core\\inventory\\behaviour\\inventory.methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F6EC4F1-7B60-0376-FCF8-8DEFFE44F2B5}|Assembly-CSharp.csproj|C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\assets\\thunderwire studio\\uhfps\\content\\scripts\\runtime\\controllers\\camera\\motioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.Methods.cs",
+              "DocumentMoniker": "C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Inventory\\Behaviour\\Inventory.Methods.cs",
+              "RelativeDocumentMoniker": "Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Inventory\\Behaviour\\Inventory.Methods.cs",
+              "ToolTip": "C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Inventory\\Behaviour\\Inventory.Methods.cs",
+              "RelativeToolTip": "Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Inventory\\Behaviour\\Inventory.Methods.cs",
+              "ViewState": "AQIAAGYBAAAAAAAAAAAjwHwBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T03:39:30.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Game\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Game\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Game\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Core\\Game\\PlayerManager.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACEAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T03:06:34.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FlashlightController.cs",
               "DocumentMoniker": "C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\Assets\\Scripts\\FlashlightController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FlashlightController.cs",
@@ -35,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MotionController.cs",
               "DocumentMoniker": "C:\\Users\\justl\\OneDrive\\Escritorio\\unity\\Ayslum-DescentIntoMadness\\Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Controllers\\Camera\\MotionController.cs",
               "RelativeDocumentMoniker": "Assets\\ThunderWire Studio\\UHFPS\\Content\\Scripts\\Runtime\\Controllers\\Camera\\MotionController.cs",
