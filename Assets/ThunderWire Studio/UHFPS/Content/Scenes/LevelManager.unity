@@ -123,6 +123,143 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &2046159897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2046159901}
+  - component: {fileID: 2046159900}
+  - component: {fileID: 2046159899}
+  - component: {fileID: 2046159898}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2046159898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046159897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
+--- !u!81 &2046159899
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046159897}
+  m_Enabled: 1
+--- !u!20 &2046159900
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046159897}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &2046159901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046159897}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 609.5, y: 343, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &9029881288562308184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,6 +268,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: LevelInfos.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: LevelInfos.Array.data[3].SceneName
+      value: Raining
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: LevelInfos.Array.data[3].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a90b4371d5d5b6458c58d448a0e4d7e, type: 3}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: LevelInfos.Array.data[3].Title.GlocText
+      value: '*Raining'
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: LevelInfos.Array.data[3].Description.GlocText
+      value: loading.description.demoscene3
+      objectReference: {fileID: 0}
     - target: {fileID: 1397992443369760298, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -185,10 +342,67 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[0].GlocText
+      value: 'Stay Hidden: Crouching and moving slowly reduces noise and visibility.
+        Use this to your advantage when sneaking past enemies.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[1].GlocText
+      value: 'Stay in the Shadows: Monsters have a harder time spotting you in the
+        dark. Use your flashlight sparingly to avoid drawing attention.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[2].GlocText
+      value: 'Listen Carefully: Pay attention to audio cues. The faintest sound can
+        alert you to an approaching threat, giving you time to hide or plan an escape.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[3].GlocText
+      value: 'Conserve Resources: Supplies like health packs and ammunition are limited.
+        Use them only when absolutely necessary and search thoroughly for more.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[4].GlocText
+      value: 'Plan Your Route: Know your surroundings and plan your escape routes
+        in advance. Familiarity with the environment can be the difference between
+        life and death.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[5].GlocText
+      value: 'Close Doors Behind You: Closing doors can slow down or block monsters,
+        giving you more time to escape or hide.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[6].GlocText
+      value: 'Watch for Clues: Environmental hints can provide valuable information
+        about dangers and safe spots. Pay attention to bloodstains, broken objects,
+        or unusual sounds.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[7].GlocText
+      value: 'Plan Your Route: Know your surroundings and plan your escape routes
+        in advance. Familiarity with the environment can be the difference between
+        life and death.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[8].GlocText
+      value: 'Save Often: If the game allows, save your progress frequently. This
+        can save you from having to replay difficult sections if you get caught.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
+      propertyPath: TipsList.Array.data[9].GlocText
+      value: 'Trust Your Instincts: If something feels off, it probably is. Trust
+        your gut and proceed with caution.'
+      objectReference: {fileID: 0}
     - target: {fileID: 2440201664425607479, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fe32776e6de5b5f4aac7f58c2b9364a2, type: 3}
+      objectReference: {fileID: 21300000, guid: 4fd87abd7b2ac834ca772bb64f6b4c87, type: 3}
     - target: {fileID: 2440201664425607479, guid: a6d90327880ef514da0c37e51d684ce0, type: 3}
       propertyPath: m_Color.b
       value: 0.5943396
@@ -316,3 +530,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 9029881288562308184}
+  - {fileID: 2046159901}
