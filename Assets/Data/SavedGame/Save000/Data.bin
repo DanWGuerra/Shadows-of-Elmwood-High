@@ -1,14 +1,14 @@
 {
-  "id": "8ba65876d87d48ce8cad03907cca135e",
+  "id": "c2fedbf8087a40e59b0b9305904fca8c",
   "playerData": {
     "position": {
-      "x": 143.66037,
-      "y": 1.5,
-      "z": 159.236465
+      "x": -6.667443,
+      "y": 0.9600067,
+      "z": 13.8736935
     },
     "rotation": {
-      "x": 326.3913,
-      "y": 0.0
+      "x": 5.9999795,
+      "y": -7.1000247
     },
     "localData": {
       "health": 100,
@@ -33,18 +33,7 @@
     "globalData": {
       "inventory": {
         "expanded": 0,
-        "items": {
-          "item_0": {
-            "item": "1a62d00e739445248211bcfbc6189138",
-            "quantity": 1,
-            "orientation": 0,
-            "position": {
-              "x": 0,
-              "y": 0
-            },
-            "customData": {}
-          }
-        },
+        "items": {},
         "shortcuts": {
           "shortcut_0": "{}",
           "shortcut_1": "{}",
@@ -58,10 +47,10 @@
   "worldState": {
     "worldSaveables": {
       "RainingSet.a4773fa883b8bff4d972e51b60de8a86": {
-        "raining": true
+        "raining": false
       },
       "TimedInteractEvent.9850e9eaf96cddc44b0d0bd46fa944ab": {
-        "interactOnce": false,
+        "interactOnce": true,
         "isInteractTimed": false
       }
     },

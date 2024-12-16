@@ -20,6 +20,7 @@ namespace UHFPS.Editors
                 Properties.Draw("GlobalPPVolume");
                 Properties.Draw("HealthPPVolume");
                 Properties.Draw("BackgroundFade");
+                Properties.Draw("BlinkEffect");
 
                 EditorGUILayout.Space();
                 EditorGUILayout.LabelField("Settings", EditorStyles.boldLabel);

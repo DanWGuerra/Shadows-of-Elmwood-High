@@ -20,6 +20,7 @@ namespace UHFPS.Runtime
     [Docs("https://docs.twgamesdev.com/uhfps/guides/game-manager")]
     public class GameManager : Singleton<GameManager>
     {
+       
         public enum PanelType { GamePanel, PausePanel, DeadPanel, MainPanel, InventoryPanel, MapPanel }
 
         [Serializable]
@@ -48,6 +49,7 @@ namespace UHFPS.Runtime
         public Volume GlobalPPVolume;
         public Volume HealthPPVolume;
         public BackgroundFader BackgroundFade;
+        public GameObject BlinkEffect;
 
         #region Panels
         // Main Panels
@@ -68,6 +70,7 @@ namespace UHFPS.Runtime
         #region Pause
         public Button SaveGameButton;
         public Button LoadGameButton;
+     
         #endregion
 
         #region UserInterface
@@ -75,7 +78,7 @@ namespace UHFPS.Runtime
         public Image ReticleImage;
         public Image InteractProgress;
         public Slider StaminaSlider;
-
+       
         // Interaction
         public InteractInfoPanel InteractInfoPanel;
         public ControlsInfoPanel ControlsInfoPanel;
@@ -671,12 +674,14 @@ namespace UHFPS.Runtime
                 case PanelType.PausePanel:
                     SetPanelInteractable(panel);
                     GamePanel.alpha = 0;
+                    BlinkEffect.SetActive(false);
                     PausePanel.alpha = 1;
                     DeadPanel.alpha = 0;
                     break;
                 case PanelType.GamePanel:
                     SetPanelInteractable(panel);
                     GamePanel.alpha = 1;
+                    BlinkEffect.SetActive(true);
                     PausePanel.alpha = 0;
                     DeadPanel.alpha = 0;
                     break;
@@ -912,6 +917,7 @@ namespace UHFPS.Runtime
                 IsPaused = !IsPaused;
                 GamePanel.alpha = IsPaused ? 0 : 1;
                 PausePanel.alpha = IsPaused ? 1 : 0;
+                BlinkEffect.SetActive(!IsPaused);
                 SetPanelInteractable(IsPaused ? PanelType.PausePanel : PanelType.GamePanel);
 
                 // show blur
