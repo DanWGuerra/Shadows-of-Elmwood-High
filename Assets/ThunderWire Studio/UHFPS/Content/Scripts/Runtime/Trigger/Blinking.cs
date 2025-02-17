@@ -14,6 +14,7 @@ namespace UHFPS.Runtime
         public VolumeComponentReferecne Reference;
     
         public EyeBlink blink;
+        public float speed = 4;
 
         private bool blinking;
 
@@ -33,11 +34,11 @@ namespace UHFPS.Runtime
         {
             if (blinking)
             {
-                blink.Blink.value += Time.deltaTime * 4;
+                blink.Blink.value += Time.deltaTime * speed;
             }
             else
             {
-                blink.Blink.value -= Time.deltaTime * 4;
+                blink.Blink.value -= Time.deltaTime * speed;
             }
             
         }
