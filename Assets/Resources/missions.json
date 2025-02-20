@@ -1,0 +1,14 @@
+{
+  "missions": [
+    {
+      "id": 1,
+      "description": "Apagar la luz",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "description": "Encender la luz",
+      "completed": false
+    }
+  ]
+}
